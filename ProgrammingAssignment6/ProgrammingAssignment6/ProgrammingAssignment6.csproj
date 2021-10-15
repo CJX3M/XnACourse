@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B3A6BCF7-1C29-468D-BCDC-61132C967767}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProgrammingAssignment6</RootNamespace>
+    <AssemblyName>ProgrammingAssignment6</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <MonoGameContentBuilderExe>
+    </MonoGameContentBuilderExe>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Game1.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="MenuButton.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XnaCards">
+      <HintPath>..\..\..\..\..\Downloads\_7e9e3730d8d9dbc1a598b044761df54b_ProgrammingAssignment6Materials\XnaCards.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\fonts\Arial24.xnb" />
+    <None Include="Content\graphics\Back.xnb" />
+    <None Include="Content\graphics\clubs\Ace.xnb" />
+    <None Include="Content\graphics\clubs\Eight.xnb" />
+    <None Include="Content\graphics\clubs\Five.xnb" />
+    <None Include="Content\graphics\clubs\Four.xnb" />
+    <None Include="Content\graphics\clubs\Jack.xnb" />
+    <None Include="Content\graphics\clubs\King.xnb" />
+    <None Include="Content\graphics\clubs\Nine.xnb" />
+    <None Include="Content\graphics\clubs\Queen.xnb" />
+    <None Include="Content\graphics\clubs\Seven.xnb" />
+    <None Include="Content\graphics\clubs\Six.xnb" />
+    <None Include="Content\graphics\clubs\Ten.xnb" />
+    <None Include="Content\graphics\clubs\Three.xnb" />
+    <None Include="Content\graphics\clubs\Two.xnb" />
+    <None Include="Content\graphics\diamonds\Ace.xnb" />
+    <None Include="Content\graphics\diamonds\Eight.xnb" />
+    <None Include="Content\graphics\diamonds\Five.xnb" />
+    <None Include="Content\graphics\diamonds\Four.xnb" />
+    <None Include="Content\graphics\diamonds\Jack.xnb" />
+    <None Include="Content\graphics\diamonds\King.xnb" />
+    <None Include="Content\graphics\diamonds\Nine.xnb" />
+    <None Include="Content\graphics\diamonds\Queen.xnb" />
+    <None Include="Content\graphics\diamonds\Seven.xnb" />
+    <None Include="Content\graphics\diamonds\Six.xnb" />
+    <None Include="Content\graphics\diamonds\Ten.xnb" />
+    <None Include="Content\graphics\diamonds\Three.xnb" />
+    <None Include="Content\graphics\diamonds\Two.xnb" />
+    <None Include="Content\graphics\hearts\Ace.xnb" />
+    <None Include="Content\graphics\hearts\Eight.xnb" />
+    <None Include="Content\graphics\hearts\Five.xnb" />
+    <None Include="Content\graphics\hearts\Four.xnb" />
+    <None Include="Content\graphics\hearts\Jack.xnb" />
+    <None Include="Content\graphics\hearts\King.xnb" />
+    <None Include="Content\graphics\hearts\Nine.xnb" />
+    <None Include="Content\graphics\hearts\Queen.xnb" />
+    <None Include="Content\graphics\hearts\Seven.xnb" />
+    <None Include="Content\graphics\hearts\Six.xnb" />
+    <None Include="Content\graphics\hearts\Ten.xnb" />
+    <None Include="Content\graphics\hearts\Three.xnb" />
+    <None Include="Content\graphics\hearts\Two.xnb" />
+    <None Include="Content\graphics\hitbutton.xnb" />
+    <None Include="Content\graphics\quitbutton.xnb" />
+    <None Include="Content\graphics\spades\Ace.xnb" />
+    <None Include="Content\graphics\spades\Eight.xnb" />
+    <None Include="Content\graphics\spades\Five.xnb" />
+    <None Include="Content\graphics\spades\Four.xnb" />
+    <None Include="Content\graphics\spades\Jack.xnb" />
+    <None Include="Content\graphics\spades\King.xnb" />
+    <None Include="Content\graphics\spades\Nine.xnb" />
+    <None Include="Content\graphics\spades\Queen.xnb" />
+    <None Include="Content\graphics\spades\Seven.xnb" />
+    <None Include="Content\graphics\spades\Six.xnb" />
+    <None Include="Content\graphics\spades\Ten.xnb" />
+    <None Include="Content\graphics\spades\Three.xnb" />
+    <None Include="Content\graphics\spades\Two.xnb" />
+    <None Include="Content\graphics\standbutton.xnb" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
