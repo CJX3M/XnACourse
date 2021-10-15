@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/CJLopez/Documents/Visual Studio 2015/Projects/GameProject/GameProject/Content/audio/TeddyShot.wav</SourceFile>
+  <SourceTime>2012-05-30T17:32:08-05:00</SourceTime>
+  <DestFile>C:/Users/CJLopez/Documents/Visual Studio 2015/Projects/GameProject/GameProject/Content/bin/Windows/audio/TeddyShot.xnb</DestFile>
+  <DestTime>2016-07-18T21:11:44.2178792-05:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2015-04-29T12:14:44-05:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2015-04-29T12:14:44-05:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
