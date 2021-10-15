@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/CJLopez/Documents/Visual Studio 2015/Projects/ProgrammingAssignment4/ProgrammingAssignment4/Content/graphics/teddybear.png</SourceFile>
+  <SourceTime>2011-12-16T09:16:08-06:00</SourceTime>
+  <DestFile>C:/Users/CJLopez/Documents/Visual Studio 2015/Projects/ProgrammingAssignment4/ProgrammingAssignment4/Content/bin/Windows/graphics/teddybear.xnb</DestFile>
+  <DestTime>2016-07-18T21:19:39.2600101-05:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2015-04-29T12:14:44-05:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2015-04-29T12:14:44-05:00</ProcessorTime>
+  <Parameters>
+    <Key>ColorKeyColor</Key>
+    <Value>255,0,255,255</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ColorKeyEnabled</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>GenerateMipmaps</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ResizeToPowerOfTwo</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Color</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
